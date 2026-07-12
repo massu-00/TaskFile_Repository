@@ -22,12 +22,12 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 		}
 		if(num == 1)
 		{
-			LoadGraphScreen(0, 0, "image/Egg.webp", TRUE);
+			LoadGraphScreen(250, 160, "image/Egg.webp", TRUE);
 			WaitTimer(1000);
 		}
 		if(num == 2)
 		{
-			LoadGraphScreen(0, 0, "image/hiyoko.png", TRUE);
+			LoadGraphScreen(90, 40, "image/hiyoko.png", TRUE);
 			WaitTimer(1000);
 		}
 		if(num == 3)
